@@ -55,8 +55,8 @@ function draw()
     {
         circle(leftWristy,rightWristy,30);
         leftWristyinNumber = Number (leftWristy);
-        removeDecimal = floor(leftWristy);
-        Volume = remove/600;
+        removeDecimal = floor(leftWristyinNumber);
+        Volume = removedecimal/600;
         Song.setVolume(Volume);
         document.getElementById("Thebest").innerHTML = "Volume:" + Volume;
     }
